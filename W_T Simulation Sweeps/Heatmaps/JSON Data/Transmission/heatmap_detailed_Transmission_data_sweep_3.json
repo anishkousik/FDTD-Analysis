@@ -1,0 +1,58 @@
+{"config": {"view": {"continuousWidth": 300, "continuousHeight": 300}}, "layer": [{"mark": {"type": "rect"}, "encoding": {"color": {"condition": {"test": "datum.value < 0.8", "value": "black"}, "field": "value", "scale": {"reverse": true, "scheme": "spectral"}, "title": "Transmission", "type": "quantitative"}, "x": {"axis": {"labelAngle": 0, "title": "Thickness (\u00b5m)"}, "field": "thickness_um", "scale": {"paddingInner": 0}, "type": "ordinal"}, "y": {"axis": {"title": "Width (\u00b5m)"}, "field": "width_um", "scale": {"paddingInner": 0}, "type": "ordinal"}}, "name": "view_3", "title": "Transmission Heatmap for Transmission_data_sweep_3.csv"}, {"mark": {"type": "text", "align": "center", "baseline": "middle", "font": "Courier New", "fontSize": 11}, "encoding": {
+  
+  
+
+  
+  
+  
+    "color": {
+    "condition": {
+      "test": "datum.value < 0.8",
+      "value": "black"
+    },
+    "field": "value",
+    "scale": {
+      "domain": [0.9979, 0.99802],
+      "scheme": "spectral",
+      "reverse": true
+    },
+    "title": "Transmission",
+    "type": "quantitative"
+  }, 
+      "text": {"field": "value", "format": ".6f", "type": "quantitative"}, "x": {"axis": {"labelAngle": 0, "title": "Thickness (\u00b5m)"}, "field": "thickness_um", "scale": {"paddingInner": 0}, "type": "ordinal"}, "y": {"axis": {"title": "Width (\u00b5m)"}, "field": "width_um", "scale": {"paddingInner": 0}, "type": "ordinal"}
+    
+    
+    
+    }, "title": "Transmission Heatmap for Transmission_data_sweep_3.csv"},
+    
+    {
+    "mark": {
+      "type": "text",
+      "align": "center",
+      "baseline": "middle",
+      "font": "Courier New",
+      "fontSize": 11
+    },
+    "encoding": {
+      "text": {
+        "field": "value",
+        "format": ".6f"
+      },
+      "color": {
+        "condition": {
+          "test": "datum.value < 0.8",
+          "value": "white"
+        },
+        "value": "black"
+      },
+      "x": {
+        "field": "thickness_um",
+        "type": "ordinal"
+      },
+      "y": {
+        "field": "width_um",
+        "type": "ordinal"
+      }
+    }
+  }
+  ], "data": {"name": "data-beb8477b2931824516cefced382967af"}, "height": 600, "params": [{"name": "param_3", "select": {"type": "interval", "encodings": ["x", "y"]}, "bind": "scales", "views": ["view_3"]}], "width": 600, "$schema": "https://vega.github.io/schema/vega-lite/v5.20.1.json", "datasets": {"data-beb8477b2931824516cefced382967af": [{"width": 1.15e-06, "thickness": 6.5e-07, "value": 0.997955, "thickness_um": "0.65 \u00b5m", "width_um": "1.15 \u00b5m"}, {"width": 1.17e-06, "thickness": 6.5e-07, "value": 0.997913, "thickness_um": "0.65 \u00b5m", "width_um": "1.17 \u00b5m"}, {"width": 1.19e-06, "thickness": 6.5e-07, "value": 0.99792, "thickness_um": "0.65 \u00b5m", "width_um": "1.19 \u00b5m"}, {"width": 1.21e-06, "thickness": 6.5e-07, "value": 0.997927, "thickness_um": "0.65 \u00b5m", "width_um": "1.21 \u00b5m"}, {"width": 1.23e-06, "thickness": 6.5e-07, "value": 0.997986, "thickness_um": "0.65 \u00b5m", "width_um": "1.23 \u00b5m"}, {"width": 1.25e-06, "thickness": 6.5e-07, "value": 0.997931, "thickness_um": "0.65 \u00b5m", "width_um": "1.25 \u00b5m"}, {"width": 1.15e-06, "thickness": 6.7e-07, "value": 0.99791, "thickness_um": "0.67 \u00b5m", "width_um": "1.15 \u00b5m"}, {"width": 1.17e-06, "thickness": 6.7e-07, "value": 0.997923, "thickness_um": "0.67 \u00b5m", "width_um": "1.17 \u00b5m"}, {"width": 1.19e-06, "thickness": 6.7e-07, "value": 0.99793, "thickness_um": "0.67 \u00b5m", "width_um": "1.19 \u00b5m"}, {"width": 1.21e-06, "thickness": 6.7e-07, "value": 0.997937, "thickness_um": "0.67 \u00b5m", "width_um": "1.21 \u00b5m"}, {"width": 1.23e-06, "thickness": 6.7e-07, "value": 0.997939, "thickness_um": "0.67 \u00b5m", "width_um": "1.23 \u00b5m"}, {"width": 1.25e-06, "thickness": 6.7e-07, "value": 0.997941, "thickness_um": "0.67 \u00b5m", "width_um": "1.25 \u00b5m"}, {"width": 1.15e-06, "thickness": 6.9e-07, "value": 0.997921, "thickness_um": "0.69 \u00b5m", "width_um": "1.15 \u00b5m"}, {"width": 1.17e-06, "thickness": 6.9e-07, "value": 0.997933, "thickness_um": "0.69 \u00b5m", "width_um": "1.17 \u00b5m"}, {"width": 1.19e-06, "thickness": 6.9e-07, "value": 0.997939, "thickness_um": "0.69 \u00b5m", "width_um": "1.19 \u00b5m"}, {"width": 1.21e-06, "thickness": 6.9e-07, "value": 1.64e-06, "thickness_um": "0.69 \u00b5m", "width_um": "1.21 \u00b5m"}, {"width": 1.23e-06, "thickness": 6.9e-07, "value": 0.997948, "thickness_um": "0.69 \u00b5m", "width_um": "1.23 \u00b5m"}, {"width": 1.25e-06, "thickness": 6.9e-07, "value": 0.99795, "thickness_um": "0.69 \u00b5m", "width_um": "1.25 \u00b5m"}, {"width": 1.15e-06, "thickness": 7.1e-07, "value": 0.997937, "thickness_um": "0.71 \u00b5m", "width_um": "1.15 \u00b5m"}, {"width": 1.17e-06, "thickness": 7.1e-07, "value": 0.997948, "thickness_um": "0.71 \u00b5m", "width_um": "1.17 \u00b5m"}, {"width": 1.19e-06, "thickness": 7.1e-07, "value": 0.997954, "thickness_um": "0.71 \u00b5m", "width_um": "1.19 \u00b5m"}, {"width": 1.21e-06, "thickness": 7.1e-07, "value": 0.99802, "thickness_um": "0.71 \u00b5m", "width_um": "1.21 \u00b5m"}, {"width": 1.23e-06, "thickness": 7.1e-07, "value": 0.998008, "thickness_um": "0.71 \u00b5m", "width_um": "1.23 \u00b5m"}, {"width": 1.25e-06, "thickness": 7.1e-07, "value": 0.997967, "thickness_um": "0.71 \u00b5m", "width_um": "1.25 \u00b5m"}, {"width": 1.15e-06, "thickness": 7.3e-07, "value": 0.997945, "thickness_um": "0.73 \u00b5m", "width_um": "1.15 \u00b5m"}, {"width": 1.17e-06, "thickness": 7.3e-07, "value": 0.997956, "thickness_um": "0.73 \u00b5m", "width_um": "1.17 \u00b5m"}, {"width": 1.19e-06, "thickness": 7.3e-07, "value": 0.997961, "thickness_um": "0.73 \u00b5m", "width_um": "1.19 \u00b5m"}, {"width": 1.21e-06, "thickness": 7.3e-07, "value": 0.99797, "thickness_um": "0.73 \u00b5m", "width_um": "1.21 \u00b5m"}, {"width": 1.23e-06, "thickness": 7.3e-07, "value": 0.997974, "thickness_um": "0.73 \u00b5m", "width_um": "1.23 \u00b5m"}, {"width": 1.25e-06, "thickness": 7.3e-07, "value": 0.997978, "thickness_um": "0.73 \u00b5m", "width_um": "1.25 \u00b5m"}, {"width": 1.15e-06, "thickness": 7.5e-07, "value": 0.99795, "thickness_um": "0.75 \u00b5m", "width_um": "1.15 \u00b5m"}, {"width": 1.17e-06, "thickness": 7.5e-07, "value": 0.997962, "thickness_um": "0.75 \u00b5m", "width_um": "1.17 \u00b5m"}, {"width": 1.19e-06, "thickness": 7.5e-07, "value": 0.997969, "thickness_um": "0.75 \u00b5m", "width_um": "1.19 \u00b5m"}, {"width": 1.21e-06, "thickness": 7.5e-07, "value": 0.997979, "thickness_um": "0.75 \u00b5m", "width_um": "1.21 \u00b5m"}, {"width": 1.23e-06, "thickness": 7.5e-07, "value": 0.997983, "thickness_um": "0.75 \u00b5m", "width_um": "1.23 \u00b5m"}, {"width": 1.25e-06, "thickness": 7.5e-07, "value": 0.997988, "thickness_um": "0.75 \u00b5m", "width_um": "1.25 \u00b5m"}]}}
